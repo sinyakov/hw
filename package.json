@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "lint": "eslint ./01/*/task.js",
+    "test": "mocha --reporter=spec ./01/*/test.js"
+  },
+  "dependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.5.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1"
+  }
+}
